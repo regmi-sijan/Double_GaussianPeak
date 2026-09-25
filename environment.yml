@@ -1,0 +1,7 @@
+name: gaussian-peaks
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - root=6.36
+  - jupyterlab
