@@ -2,7 +2,7 @@
 
 Reproducible PyROOT analysis of a binned spectrum: separating a small peak near channel 970 from background and two larger neighboring peaks.
 
-The project retains three approaches from `BikashROOTFile.ipynb`, with independent entry points, portable data paths, saved figures, and fit diagnostics. The repository name is retained, but the global model contains **three Gaussians**, including the small peak of interest.
+The project retains three approaches from `SampleROOTFile.ipynb`, with independent entry points, portable data paths, saved figures, and fit diagnostics. The repository name is retained, but the global model contains **three Gaussians**, including the small peak of interest.
 
 ![Three-Gaussian fit](docs/three_gaussian.png)
 
@@ -53,7 +53,7 @@ Read [the scientific review](docs/methods.md) before interpreting the yields. No
 - `analysis/`: independent methods and shared input/diagnostic utilities.
 - `notebooks/`: three short notebook entry points that run and display the corresponding method.
 - `data/`: original ROOT input and provenance notes.
-- `archive/BikashROOTFile.ipynb`: byte-for-byte original notebook, including historical outputs.
+- `archive/SampleROOTFile.ipynb`: byte-for-byte original notebook, including historical outputs.
 - `docs/`: scientific review and a baseline figure generated during validation.
 - `tests/`: input, failure-handling, and fit regression checks.
 
